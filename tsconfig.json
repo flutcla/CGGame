@@ -1,20 +1,8 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "useDefineForClassFields": true,
-    "module": "ESNext",
-    "lib": ["ESNext", "DOM"],
-    "moduleResolution": "Node",
     "strict": true,
-    "sourceMap": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "esModuleInterop": true,
-    "noEmit": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "skipLibCheck": true
-  },
-  "include": ["src"]
+    "target": "es5", // ES5準拠のコードを出力
+    "moduleResolution": "node", // node方式のモジュール解決方法（node_modulesを探索）
+    "resolveJsonModule": true
+  }
 }
