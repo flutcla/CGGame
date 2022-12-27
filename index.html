@@ -1,15 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/CGGame/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
-    <script type="module" crossorigin src="/CGGame/assets/index.877edc6b.js"></script>
-    <link rel="stylesheet" href="/CGGame/assets/index.d5a34e39.css">
-  </head>
-  <body>
-    <div id="app"></div>
-    
-  </body>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>CGセトリ当てゲーム</title>
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+    }
+
+    #game-app {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #game-app>canvas {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  </style>
+<script defer src="bundle.js"></script></head>
+
+<body>
+  <div id="game-app"></div>
+</body>
+
 </html>
